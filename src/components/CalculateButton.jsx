@@ -3,7 +3,7 @@ const CalculateButton = ({ onClick }) => (
   <div className="mb-6 text-center btnCal">
     <button
       onClick={onClick}
-      className="btn btn-primary btn-lg shadow-lg "
+      className="btn btn-primary btn-lg shadow-lg m-3"
     >
       Calculate
     </button>
