@@ -32,6 +32,9 @@ const Navigation = ({ darkMode, toggleDarkMode }) => (
           <li className="nav-item">
             <Link to="/about" className="nav-link">About Us</Link>
           </li>
+          <li className="nav-item">
+            <Link to="*" className="nav-link">Error Page</Link>
+          </li>
         </ul>
 
         {/* Dark mode toggle button */}
